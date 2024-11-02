@@ -1,0 +1,108 @@
+/* Admin Login container styles */
+.login-container {
+  width: 400px; 
+  max-width: 90%; 
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  font-size: 1.3rem; 
+  margin: 50px auto;
+}
+
+.form-group {
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px; /* Increase padding for larger input field */
+  font-size: 1rem;
+  margin-top: 5px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container .form-input {
+  padding-right: 45px; /* Adjust for eye icon */
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+button.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+button.login-button:hover {
+  background-color: #19ba21;
+}
+
+/* Custom footer styles */
+footer {
+background-color: #343a40;
+color: white;
+padding: 5px;
+text-align: center;
+}
+
+footer a {
+color: #11d038ac;
+text-decoration: none;
+}
+
+footer a:hover {
+color: #f8f9fa;
+}
+
+footer p {
+margin: 0;
+}
+
+.footer-icons a {
+color: white;
+margin: 0 10px;
+font-size: 1.2rem;
+}
+
+.footer-icons a:hover {
+color: #11d038ac;
+}
+
+.contact-info {
+text-align: left;
+margin-top: 15px;
+}
+
+.contact-title {
+padding: 0 20%;
+border-bottom: 2px solid;
+margin-bottom: 12px;
+}

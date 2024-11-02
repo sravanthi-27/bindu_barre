@@ -1,0 +1,10 @@
+<!-- admin-dashboard.component.html -->
+<nav *ngIf="showNavbar">
+  <ul>
+    <li><a routerLink="/accommodation">Accommodation</a></li>
+    <li><a routerLink="/feedback">Feedback</a></li>
+    <li><a routerLink="/agent-registration">Agent Registration</a></li>
+    <li><a routerLink="/user-data">User Data</a></li>
+  </ul>
+</nav>
+<router-outlet></router-outlet>
